@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      
     paths:
       - 'be-azure/**'
       - '.github/workflows/be.yml'

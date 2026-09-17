@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      
+
     paths:
       - 'be-azure/**'
       - '.github/workflows/be.yml'
@@ -57,4 +57,4 @@ jobs:
           app-name: 'yangpa-be-ksj'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C3CEE56F9A3428AA480E0378B9A9170 }}
+          publish-profile: ${{ secrets.BE_PROFILE }}
